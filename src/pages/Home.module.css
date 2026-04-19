@@ -1,0 +1,71 @@
+/* mv */
+.mv {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .mainvisual {
+    display: flex;
+    justify-content: right;
+    margin-right: 6.25rem;
+    margin-top: 8%;
+  }
+  
+  .mainvisual img {
+    width: 46.1%;
+  }
+  
+  .siteTtl {
+    position: absolute;
+    margin-left: 8.8%;
+    z-index: 10;
+    text-align: center;
+  }
+  
+  .ttlName {
+    font-size: 6.5vw;
+    line-height: normal;
+    letter-spacing: 0.1em;
+  }
+  
+  .mvSub {
+    font-size: 4.6vw;
+    line-height: normal;
+    letter-spacing: 0.09em;
+  }
+  
+  /* sp */
+  @media screen and (max-width: 988px) {
+    .mainvisual img {
+      width: 50%;
+    }
+    .mainvisual {
+      margin: 10% 5% 0 0;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .mainvisual img {
+      position: relative;
+      width: 150%;
+      right: -26%;
+    }
+    .mainvisual {
+      margin: 32% 5% 0 0;
+    }
+    .siteTtl {
+      margin: -26% 0 0 5.8%;
+      text-align: left;
+    }
+    .ttlName {
+      font-size: 13.4vw;
+    }
+    .mvSub {
+      font-size: 7.6vw;
+    }
+  }
+  
